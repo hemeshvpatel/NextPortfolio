@@ -4,6 +4,7 @@ export const Sections = styled.div`
   display: flex;
   align-items: center;
   gap: 5rem;
+  max-width: 1040px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
@@ -18,7 +19,7 @@ export const Sections = styled.div`
 `;
 
 export const LeftSection = styled.div`
-  width: 75%;
+  width: 60%;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
     display: flex;
@@ -36,20 +37,20 @@ export const LeftSection = styled.div`
 `;
 
 export const RightSection = styled.div`
-  width: 25%;
+  width: 40%;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
     display: flex;
     flex-direction: column;
-
+    padding: 2rem;
     margin: 0 auto;
   }
   @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;
     display: flex;
     flex-direction: column;
-
+    padding: 5rem;
     margin: 0 auto;
   }
 `;

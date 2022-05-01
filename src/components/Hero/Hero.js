@@ -8,7 +8,7 @@ import {
 import { LeftSection, RightSection, Sections, Img } from "./HeroStyles";
 
 const Hero = () => (
-  <Section row nopadding>
+  <Section row>
     <Sections>
       <LeftSection>
         <SectionTitle main center>
